@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function CardComponent({ img, title, price, subTitle, rating}) {
   return (
-    <div className=' grid rounded-xl mb- shadow-lg grid-flow-row relative'>
+    <div className=' grid rounded-xl mb- shadow-lg grid-flow-row relative wow animate__animated animate__fadeIn animate__slow'>
         <Image 
             src={img}
          width= '351'

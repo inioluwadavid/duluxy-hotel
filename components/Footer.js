@@ -1,3 +1,4 @@
+import Link from 'next/Link'
 import React from 'react'
 
 export default function Footer() {
@@ -5,28 +6,63 @@ export default function Footer() {
     <div className=' p-6 md:px-20 pt-20 pb-4 bg-footer-co'>
         <div className=' grid grid-cols-3 md:grid-cols-6 gap-3'>
             <div className=' col-span-4 md:col-span-1'>
-                <h1 className=' text-center text-white font-headd text-2xl'> DELUXE</h1>
+                <h1 className=' cursor-pointer text-center text-white  hover:pl-2  font-headd text-2xl'> DELUXE</h1>
+            </div>
+            <div> 
+            <Link href='/rooms'>
+            <h2 className='cursor-pointer text-white  hover:pl-2  text-start font-top-sec font-bold'>  Rooms</h2> 
+            </Link>
+            <Link href='/rooms'>
+            <h6 className=' cursor-pointer text-white  hover:pl-2  text-start font-top-sec '>Single </h6> 
+            </Link>
+            <Link href='/rooms'>
+            <h6 className='cursor-pointer text-white  hover:pl-2  text-start font-top-sec '> Double</h6>
+            </Link>
+            <Link href='/rooms'>
+            <h6 className=' cursor-pointer text-white  hover:pl-2  text-start font-top-sec '> Executive</h6> 
+            </Link>
+            <Link href='/rooms'>
+            <h6 className=' cursor-pointer text-white  hover:pl-2  text-start font-top-sec '> Duplex</h6> 
+            </Link>
+            
+             
+            
             </div>
             <div>
-                <h2 className=' text-white  text-start font-top-sec font-bold'> Rooms</h2>
-                <h6 className=' text-white  text-start font-top-sec '>Single </h6>
-                <h6 className=' text-white  text-start font-top-sec '> Double</h6>
-                <h6 className=' text-white  text-start font-top-sec '> Executive</h6>
-                <h6 className=' text-white  text-start font-top-sec '> Duplex</h6>
+            <Link href='/facilities'>
+            <h2 className=' text-white  hover:pl-2 cursor-pointer  text-start font-top-sec font-bold'> Facilities</h2>
+            </Link>
+            <Link href='/facilities'>
+            <h6 className=' text-white  hover:pl-2 cursor-pointer  text-start font-top-sec '>Wifi </h6>
+            </Link>
+            <Link href='/facilities'>
+            <h6 className=' text-white  hover:pl-2 cursor-pointer  text-start font-top-sec '> Gym</h6>
+            </Link>
+            <Link href='/facilities'>
+                <h6 className=' text-white  hover:pl-2 cursor-pointer  text-start font-top-sec '> Restaurant</h6>
+                </Link>
+            <Link href='/facilities'>
+            <h6 className=' text-white  hover:pl-2 cursor-pointer  text-start font-top-sec '> Swimming pool</h6>
+            </Link>
+                
             </div>
             <div>
-                <h2 className=' text-white  text-start font-top-sec font-bold'> Facilities</h2>
-                <h6 className=' text-white  text-start font-top-sec '>Wifi </h6>
-                <h6 className=' text-white  text-start font-top-sec '> Gym</h6>
-                <h6 className=' text-white  text-start font-top-sec '> Restaurant</h6>
-                <h6 className=' text-white  text-start font-top-sec '> Swimming pool</h6>
-            </div>
-            <div>
-                <h2 className=' text-white  text-start font-top-sec font-bold'> Locations</h2>
-                <h6 className=' text-white  text-start font-top-sec '>London </h6>
-                <h6 className=' text-white  text-start font-top-sec '> Lagos</h6>
-                <h6 className=' text-white  text-start font-top-sec '> Abuja</h6>
-                <h6 className=' text-white  text-start font-top-sec '> Beijing</h6>
+            <Link href='/contact'>
+            <h2 className=' text-white  hover:pl-2 cursor-pointer  text-start font-top-sec font-bold'> Locations</h2>
+             </Link>
+            <Link  href='/contact'>
+              <h6 className=' text-white  hover:pl-2 cursor-pointer  text-start font-top-sec '>London </h6>
+              </Link>  
+            <Link  href='/contact'>
+             <h6 className=' text-white  hover:pl-2 cursor-pointer  text-start font-top-sec '> Lagos</h6>
+             </Link>  
+            <Link  href='/contact'>
+              <h6 className=' text-white  hover:pl-2 cursor-pointer  text-start font-top-sec '> Abuja</h6>
+              </Link>  
+            <Link  href='/contact'>
+             <h6 className=' text-white  hover:pl-2 cursor-pointer  text-start font-top-sec '> Beijing</h6>
+             </Link>  
+               
             </div>
             <div className=' col-span-4 md:col-span-2'>
                 <div className=' flex justify-center'>

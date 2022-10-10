@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Images({image, title, subTitle}) {
   return (
-    <div className='relative'>
+    <div className='relative wow animate__animated animate__fadeIn animate__slow'>
         <div >
         <Image
          src={image}

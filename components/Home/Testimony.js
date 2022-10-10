@@ -4,12 +4,12 @@ import React from 'react'
 export default function Testimony() {
   return (
     <div className=' mt-6 p-8 '>
-        <h5 className=' text-purple-600 text-center mb-3'>Testimonies</h5>
-        <h2 className=' text-center text-2xl text-black mb-6 font-top-sec font-bold '>What our customers say about us</h2>
+        <h5 className=' text-purple-600 text-center mb-3 wow animate__animated animate__fadeInLeft'>Testimonies</h5>
+        <h2 className=' text-center text-2xl text-black mb-6 font-top-sec font-bold wow animate__animated animate__fadeInLeft'>What our customers say about us</h2>
         <div className='relative'>
         <div className=' mt-5 mb-6 flex justify-center '>
             <div className=' relative'>
-                <div className=' p-8 shadow-xl shadow-orange-200 rounded-lg relative'>
+                <div className=' p-8 shadow-xl shadow-orange-200 rounded-lg relative wow animate__animated animate__fadeIn'>
                     <h4 className=' text-justify font-top-sec text-black mb-8'>
                     This has been the best hotel I have ever been to. Their <br></br>
                         hospitality was top notch, their services was the best. <br></br> Do
@@ -29,6 +29,7 @@ export default function Testimony() {
                     width='156'
                     height= '156'
                     alt='image'
+                    className=' wow animate__animated animate__fadeIn'
                 />
                 </div>
             </div>

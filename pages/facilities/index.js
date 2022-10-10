@@ -4,9 +4,15 @@ import FacilityGallery from '../../components/Facilities/FacilityGallery'
 import Topsection from '../../components/Facilities/Topsection'
 import FacilityIcons from '../../components/FacilityIcons'
 export default function Facilities() {
+  useEffect(() => {
+    if(typeof window !== 'undefined') {
+        window.WOW = require('wowjs');
+      }
+      new WOW.WOW().init();
+    
+})
   return (
     
-
     <div>
 
         <Head>

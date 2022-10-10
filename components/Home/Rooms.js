@@ -1,11 +1,12 @@
+import Link from 'next/link'
 import React from 'react'
 import Images from '../Image'
 
 export default function Rooms() {
   return (
     <div className=' mt-4 p-8'>
-        <h3 className=' text-center text-green-600 font-top-sec'>Our Rooms & RATES</h3>
-        <h1 className=' text-center text-2xl font-bold text-black'>Our rooms are of good standard</h1>
+        <h3 className=' text-center text-green-600 font-top-sec wow animate__animated animate__fadeInLeft'>Our Rooms & RATES</h3>
+        <h1 className=' text-center text-2xl font-bold text-black wow animate__animated animate__fadeInLeft'>Our rooms are of good standard</h1>
 
         <div className=' mt-10 grid md:grid-cols-4 md:gap-4 '>
             <Images 
@@ -27,9 +28,12 @@ export default function Rooms() {
         </div>
 
         <div className=' flex justify-end mt-6 mb-6'>
-            <button className=' p-3 bg-orange-100 text-orange-500'>
+        <Link href='/rooms'>
+        <button className=' p-3 bg-orange-100 text-orange-500'>
             View more
             </button>
+        </Link>
+           
         </div>
     </div>
   )

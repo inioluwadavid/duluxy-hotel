@@ -3,7 +3,7 @@ import React from 'react'
 export default function FacilityIcons() {
   return (
     <div className=' mb-4'>
-         <div className=' grid grid-cols-4 md:grid-cols-7 gap-3'>
+         <div className=' grid grid-cols-4 md:grid-cols-7 gap-3 wow animate__animated wow animate__animated animate__fadeInLeft'>
             <div >
             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class=" mx-auto text-center text-orange-500 bi bi-wifi" viewBox="0 0 16 16">
              <path d="M15.384 6.115a.485.485 0 0 0-.047-.736A12.444 12.444 0 0 0 8 3C5.259 3 2.723 3.882.663 5.379a.485.485 0 0 0-.048.736.518.518 0 0 0 .668.05A11.448 11.448 0 0 1 8 4c2.507 0 4.827.802 6.716 2.164.205.148.49.13.668-.049z"/>
