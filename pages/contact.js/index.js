@@ -2,7 +2,7 @@ import Head from 'next/head'
 import React, {useEffect} from 'react'
 import ContactForm from '../../components/Contact/ContactForm'
 import TopContent from '../../components/Contact/TopContent'
-import SimpleMap from '../../components/contact/ContactLocation'
+
 export default function Contactus() {
   useEffect(() => {
     if(typeof window !== 'undefined') {
