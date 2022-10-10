@@ -10,7 +10,7 @@ export default function Testimony() {
         <div className=' mt-5 mb-6 flex justify-center '>
             <div className=' relative'>
                 <div className=' p-8 shadow-xl shadow-orange-200 rounded-lg relative wow animate__animated animate__fadeIn'>
-                    <h4 className=' text-justify font-top-sec text-black mb-8'>
+                    <h4 className='text-start md:text-justify font-top-sec text-black mb-8'>
                     This has been the best hotel I have ever been to. Their <br></br>
                         hospitality was top notch, their services was the best. <br></br> Do
                         patronize them  

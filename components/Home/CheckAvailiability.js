@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function CheckAvailiability() {
   return (
-    <div className=' xl:mr-2 relative md:w-4/5 mx-auto'>
+    <div className='  relative md:w-4/5 mx-auto'>
     <div className='  md:absolute md:-top-4 bg-white'>
         <form>
             <div className=' grid p-4 md:p-0 grid-cols-1 md:grid-cols-5 gap-4 mb-4'>
