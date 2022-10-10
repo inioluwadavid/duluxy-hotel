@@ -1,6 +1,8 @@
+//author David Ajibade -- github inioluwadavid
 import Head from 'next/head'
 import React, {useEffect} from 'react'
 import ContactForm from '../../components/Contact/ContactForm'
+import Map from '../../components/Contact/Map'
 import TopContent from '../../components/Contact/TopContent'
 
 export default function Contactus() {
@@ -16,6 +18,7 @@ export default function Contactus() {
        <Head>
         <title>Contact us</title>
         <meta name="description" content="Duluxy Hotel is a luxury hotel and has Five star Facilities" />
+        
         <link rel="icon" href="/favicon.ico" />
         <link
                 rel="stylesheet"
@@ -24,6 +27,8 @@ export default function Contactus() {
         </Head>
         <TopContent />
         <ContactForm />
+       
+        
         
     </div>
   )

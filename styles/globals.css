@@ -68,7 +68,9 @@ a {
     background: black;
   }
 } */
-
+#map {
+  height: 100%;
+}
 @media (max-width: 768px) { 
   .booknow{
     background-position: left bottom;

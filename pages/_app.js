@@ -1,3 +1,5 @@
+//author David Ajibade -- github inioluwadavid
+
 import Link from 'next/link'
 import Navbar from '../components/Navbar'
 import '../styles/globals.css'

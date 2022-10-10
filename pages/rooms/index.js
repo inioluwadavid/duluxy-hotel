@@ -1,3 +1,4 @@
+//author David Ajibade -- github inioluwadavid
 import Head from 'next/head'
 import React, {useEffect} from 'react'
 import CardSection from '../../components/Rooms/CardSection'
