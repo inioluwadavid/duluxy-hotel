@@ -9,16 +9,16 @@ export default function CheckAvailiability() {
                 <div></div>
                 <div className=' flex justify-center'>
                 <div>
-                    <label className=' block text-gray-400'>Arrival Date</label>
-                    <select>
+                    <label className=' block text-center text-gray-400'>Arrival Date</label>
+                    <select className=' bg-white w-full p-2'>
                         <option> September, 19, 2020</option>
                     </select>
                     </div>
                 </div>
                 <div className=' flex justify-center'>
                 <div>
-                    <label className=' block text-gray-400'>Departure date</label>
-                    <select>
+                    <label className=' text-center block text-gray-400'>Departure date</label>
+                    <select className=' bg-white w-full p-2'>
                         <option> September, 19, 2020</option>
                     </select>
                     </div>
@@ -26,7 +26,7 @@ export default function CheckAvailiability() {
                 <div className=' flex justify-center'>
                     <div>
                     <label className=' block text-gray-400'>Person</label>
-                    <select>
+                    <select className=' bg-white w-full p-2'>
                         <option> 1</option>
                         <option> 2</option>
                         <option> 3</option>
