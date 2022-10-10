@@ -50,19 +50,19 @@ function MyApp({ Component, pageProps }) {
                 
             </div>
             <div>
-            <Link href='/contact'>
+            <Link href='/contacts'>
             <h2 className=' text-white  hover:pl-2 cursor-pointer  text-start font-top-sec font-bold'> Locations</h2>
              </Link>
-            <Link  href='/contact'>
+            <Link  href='/contacts'>
               <h6 className=' text-white  hover:pl-2 cursor-pointer  text-start font-top-sec '>London </h6>
               </Link>  
-            <Link  href='/contact'>
+            <Link  href='/contacts'>
              <h6 className=' text-white  hover:pl-2 cursor-pointer  text-start font-top-sec '> Lagos</h6>
              </Link>  
-            <Link  href='/contact'>
+            <Link  href='/contacts'>
               <h6 className=' text-white  hover:pl-2 cursor-pointer  text-start font-top-sec '> Abuja</h6>
               </Link>  
-            <Link  href='/contact'>
+            <Link  href='/contacts'>
              <h6 className=' text-white  hover:pl-2 cursor-pointer  text-start font-top-sec '> Beijing</h6>
              </Link>  
                
