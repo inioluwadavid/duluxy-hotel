@@ -19,7 +19,7 @@ a {
 }
 .bg {
   /* The image used */
-  background-image:  linear-gradient(90deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 50.52%, rgba(255, 251, 245, 0.3) 100%) ,url("/Bg.PNG");
+  background-image:  linear-gradient(90deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 50.52%, rgba(255, 251, 245, 0.3) 100%) ,url("/Bg.png");
   height: 100vh; 
   background-position: center;
   background-repeat: no-repeat;
@@ -28,7 +28,7 @@ a {
 }
 .rooms-bg {
   /* The image used */
-  background-image:  linear-gradient(90deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 50.52%, rgba(255, 251, 245, 0.3) 100%), url("/roomss.PNG");
+  background-image:  linear-gradient(90deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 50.52%, rgba(255, 251, 245, 0.3) 100%), url("/roomss.png");
   height: 100vh; 
   background-position: center;
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@ a {
 }
 .booknow {
   /* The image used */
-  background-image:  linear-gradient(90deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 50.52%, rgba(255, 251, 245, 0.3) 100%), url("/bookNow.PNG");
+  background-image:  linear-gradient(90deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 50.52%, rgba(255, 251, 245, 0.3) 100%), url("/bookNow.png");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
